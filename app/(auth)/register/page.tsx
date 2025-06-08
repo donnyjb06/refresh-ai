@@ -2,12 +2,12 @@ import React from 'react';
 import { SignUp } from '@clerk/nextjs';
 import { dark } from '@clerk/themes';
 
-const page = () => {
+const Register = () => {
   return (
-    <div className='flex items-center h-full justify-center'>
+    <div className='flex items-center min-h-screen justify-center'>
       <SignUp appearance={{ baseTheme: dark }} />
     </div>
   );
 };
 
-export default page;
+export default Register;
